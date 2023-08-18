@@ -1,0 +1,44 @@
+    1  history -w
+    2  history -w
+    3  mkdir Checkpoint-JuanManuelDelgado
+    4  cd Checkpoint-JuanManuelDelgado
+    5  git init
+    6  git config user.name JuanManuelDelgado
+    7  git config user.email j.manuel.delgado.v@gmail.com
+    8  git remote add origin https://github.com/manueldelgadodev/Checkpoint-JuanManuelDelgado.git
+    9  git remote -v
+   10  touch main.js index.html
+   11  git add .
+   12  git status
+   13  git commit -m "commit 01 de JuanManuelDelgado"
+   14  git push -u origin main
+   15  git branch feature
+   16  git checkout feature
+   17  mkdir Hardware Software SeguridadInformatica
+   18  cd Hardware
+   19  touch resumen.txt
+   20  cd ../Software
+   21  touch resumen.txt
+   22  cd ../SeguridadInformatica
+   23  touch resumen.txt
+   24  cd ..
+   25  ls -r
+   26  ls
+   27  tree Checkpoint-JuanManuelDelgado
+   28  git add .
+   29  git status
+   30  git commit -m "commit 02 de JuanManuelDelgado"
+   31  git push origin feature
+   32  git checkout main
+   33  git mv main.js resumenHardware.txt
+   34  git mv index.html resumenSoftware.txt
+   35  echo -e "Sistema operativo \nBrowser o Navegador \nAplicaciones" >> resumenSoftware.txt
+   36  echo -e "Memoria RAM \nMemoria cache \nMemoria ROM" >> resumenHardware.txt
+   37  git status
+   38  git add .
+   39  git add .
+   40  git status
+   41  git commit -m "commit 03 de JuanManuelDelgado"
+   42  git status
+   43  touch comandos.txt
+   44  history > comandos.txt
