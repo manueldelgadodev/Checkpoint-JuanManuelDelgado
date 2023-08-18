@@ -1,0 +1,3 @@
+Memoria RAM 
+Memoria cache 
+Memoria ROM
